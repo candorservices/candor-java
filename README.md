@@ -15,9 +15,9 @@ You can add the library to your project with Maven:
 Dependency:
 ```xml
 <dependency>
-    <groupId>com.github.discord-jar</groupId>
-    <artifactId>discord.jar</artifactId>
-    <version>Tag</version>
+    <groupId>com.github.candorservices</groupId>
+    <artifactId>candor-java</artifactId>
+    <version>1.0</version>
 </dependency>
 ```
 You can then get started by intializing a new instance of the `Candor` clas using your public API key found at https://candorian.app/api-dashboard.
