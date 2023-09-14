@@ -8,7 +8,7 @@ You can add the library to your project with Maven:
 <repositories>
     <repository>
         <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+        <url>https://jitpack.io</url>
     </repository>
 </repositories>
 ```
@@ -20,7 +20,7 @@ Dependency:
     <version>1.0</version>
 </dependency>
 ```
-You can then get started by intializing a new instance of the `Candor` clas using your public API key found at https://candorian.app/api-dashboard.
+You can then get started by initializing a new instance of the `Candor` clas using your public API key found at https://dashboard.candorservices.net/api-dashboard.
 
 ### Verifying a license
 You can verify if a license is valid using this method:
@@ -28,7 +28,7 @@ You can verify if a license is valid using this method:
 boolean valid = candor.verifyLicense("LICDENSE_KEY_HERE", "PRODUCT_ID_HERE");
 ```
 
-You'll want to grab your product ID from https://candorian.app/license-manager by creating a new product and then adding a license. The license key should be added by the client, using some sort of config (we recommend remote configs, see below!). Assign your license to your client using the tools in the dashboard.
+You'll want to grab your product ID from https://dashboard.candorservices.net/license-manager by creating a new product and then adding a license. The license key should be added by the client, using some sort of config (we recommend remote configs, see below!). Assign your license to your client using the tools in the dashboard.
 
 ### Retrieving a remote config
 Remote configs allow clients to easily configure parts of their apps without having to mess with complicated or messy configuration files. You can use this function:
@@ -55,7 +55,7 @@ with 0 being the index of the object you want to retrieve.
 There are also tons of other cool methods in that class that could be helpful.
 <br><br>
 
-You can create a remote config at https://candorian.app/config-manager.
+You can create a remote config at https://dashboard.candorservices.net/config-manager.
 
 ## Need support?
 If you need help with anything to do with this project, then please see the [project-mercury-support](https://canary.discord.com/channels/650773903236399134/1146431646418079744) channel in Discord under the FREELANCERS category.
